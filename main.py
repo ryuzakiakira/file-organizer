@@ -55,5 +55,3 @@ for file in directory_content:
                     pass
                 finally:
                     shutil.move(file, f"{value}/{file}")
-
-        
